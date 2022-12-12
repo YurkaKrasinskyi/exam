@@ -1,0 +1,39 @@
+$font_family_title: 'Playfair Display', serif;
+$font_family_text: 'Lato', sans-serif;
+$font_size_main: 16px;
+
+:root {
+   --color-main: #262A3F;
+   --color-main-alter: #fff;
+      --color-main-second: #F18978;
+   --color-main-decoration: #E4E4E4;
+      --color-main-hover: #E54F3A;
+   --color-font-italic: #85BBB1;
+      --color-background: #fff;
+      --background-shadow: linear-gradient(183.11deg, rgba(255, 255, 255, 0) 46.73%, #FFFFFF 63.21%);
+      // --background-image: url('../img/first-screen-image.png')
+
+   @media (prefers-color-scheme: dark) {
+      // body {
+      //    color: #000;
+      //    background: #fff;
+      // }
+      --color-main: #fff;
+      --color-main-alter: #fff;
+      --color-main-second: #53F3CD;
+      --color-main-decoration: #515773;
+      --color-main-hover: #02E0AB;
+      --color-font-italic: #689FF2;
+         --color-background: #161926;
+      --background-shadow: linear-gradient(270deg, #16192680 0%, #16192600 24.1%, #16192600 47.19%), #16192605;
+      // --background-image: url('../img/first-screen-image.webp');
+   }
+}
+
+// html.dark body {
+
+// }
+
+// html.light body {
+
+// }
